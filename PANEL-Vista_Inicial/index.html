@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENTRO DE AYUDA-ÁREA DE SOPORTE TÉCNICO</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <video autoplay loop muted id="fondo">
+        <source src="./VIDEO_FONDO_AppWeb.mp4" type="video/mp4">
+    </video>
+    <div class="contenedor-botón">
+        <div class="escudo-organizacion">
+            <img src="./ESCUDO_M.P.P.jpg" alt="Escudo de la organización">
+        </div>
+        <h1 style="color: #333; font-size: 36px; font-weight: bold; margin-bottom: 10px;">Soporte Técnico</h1>
+        <p style="color: #333; font-size: 18px; margin-bottom: 20px;">Explícanos tu problema.</p>
+        <button id="botón-chatbot">Acceder al Chatbot</button>
+    </div>
+    <script>
+        document.getElementById("botón-chatbot").addEventListener("click", function() {
+            window.location.href = "http://127.0.0.1:5500/index.html.html";
+        });
+    </script>
+</body>
+</html>
